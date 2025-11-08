@@ -1,0 +1,70 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+    /* ribbin */
+.ribbin{
+    display: flex;
+    background-color: #EEEEEE;
+    /* align-self: self-end; */
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+    /* padding-left: 20px;
+    padding-right: 20px; */
+    padding: 8px 24px;
+}
+.ribbin_container_1{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    /* align-self: self-start; */
+}
+.ribbin_btn_1{
+    padding: 4px 15px;
+    color: #000000D9;
+    font: 14px Poppins-Regular;
+    background-color: white;
+    border: none;
+
+}
+    /* navbar */
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* align-self: end; */
+    padding: 0px 40px;
+    /* box-shadow: 12px 0px 4px black; */
+    box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+    /* border-bottom: 1px solid black; */
+    position: sticky;
+}
+nav ol{
+    display: flex;
+    align-items: center;
+    /* justify-content: space-evenly; */
+    /* justify-content: end; */
+    gap:20px;
+}
+li{
+    list-style: none;
+    font: 14px Poppins-Regular;
+    
+}
+#logo-image img{
+    width: 200px;
+    align-self: flex-start;
+}
+
+ol a{
+    text-decoration: none;
+    background-color: #3B82F6;
+    color: white;
+    padding: 8px;
+    font: 12px Poppins-Regular;
+    border-radius: 5px;
+
+}
+    /* hero section */
